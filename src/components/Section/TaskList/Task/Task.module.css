@@ -1,3 +1,21 @@
 .Task {
+    padding: 10px 5px;
+    border-bottom: 1px solid #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+}
 
+.Task:first-of-type {
+    border-top: 1px solid #c4c4c4;
+}
+
+.Task img{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+
+}
+
+.Task p{
+    margin: auto 0;
 }

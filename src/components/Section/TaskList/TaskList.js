@@ -6,11 +6,13 @@ const TaskList = props => (
     <ul className={classes.TaskList}>
         {props.tasks.map((task, index) => {
             return (
-                <Task
-                    key={index}
-                    taskName={task.taskName}
-                >
-                </Task>
+                <React.Fragment>
+                    <Task
+                        key={index}
+                        taskName={task.taskName}
+                    />
+
+                </React.Fragment>
             )
         })}
 
