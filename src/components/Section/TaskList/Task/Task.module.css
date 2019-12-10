@@ -19,3 +19,8 @@
 .Task p{
     margin: auto 0;
 }
+
+.Task.complete p{
+    text-decoration: line-through;
+    font-style: italic;
+}

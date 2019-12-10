@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233da60d-db8a-47ae-8ec8-e6396e9c7ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Section.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/TaskList/Task/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/TaskList/Task/Task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/TaskList/Task/Task.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/TaskList/Task/Task.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/TaskList/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/TaskList/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Tasks/Tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Tasks/Tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +85,8 @@
       <workItem from="1575898257279" duration="19000" />
       <workItem from="1575898853577" duration="128000" />
       <workItem from="1575899016228" duration="117000" />
+      <workItem from="1575900359205" duration="1257000" />
+      <workItem from="1575961765356" duration="12291000" />
     </task>
     <servers />
   </component>
@@ -95,25 +103,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="948" height="244" key="GridCell.Tab.0.bottom" timestamp="1575899134221">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="948" height="277" key="GridCell.Tab.0.bottom" timestamp="1575975159809">
+      <screen x="0" y="0" width="1920" height="1000" />
     </state>
+    <state width="948" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1000@0.0.1920.1000" timestamp="1575975159809" />
     <state width="948" height="244" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1575899134221" />
-    <state width="948" height="244" key="GridCell.Tab.0.center" timestamp="1575899134219">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="948" height="277" key="GridCell.Tab.0.center" timestamp="1575975159807">
+      <screen x="0" y="0" width="1920" height="1000" />
     </state>
+    <state width="948" height="277" key="GridCell.Tab.0.center/0.0.1920.1000@0.0.1920.1000" timestamp="1575975159807" />
     <state width="948" height="244" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1575899134219" />
-    <state width="948" height="244" key="GridCell.Tab.0.left" timestamp="1575899134218">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="948" height="277" key="GridCell.Tab.0.left" timestamp="1575975159806">
+      <screen x="0" y="0" width="1920" height="1000" />
     </state>
+    <state width="948" height="277" key="GridCell.Tab.0.left/0.0.1920.1000@0.0.1920.1000" timestamp="1575975159806" />
     <state width="948" height="244" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1575899134218" />
-    <state width="948" height="244" key="GridCell.Tab.0.right" timestamp="1575899134220">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="948" height="277" key="GridCell.Tab.0.right" timestamp="1575975159808">
+      <screen x="0" y="0" width="1920" height="1000" />
     </state>
+    <state width="948" height="277" key="GridCell.Tab.0.right/0.0.1920.1000@0.0.1920.1000" timestamp="1575975159808" />
     <state width="948" height="244" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1575899134220" />
     <state x="469" y="150" key="SettingsEditor" timestamp="1575898981812">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="469" y="150" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1575898981812" />
+    <state x="542" y="272" width="835" height="570" key="find.popup" timestamp="1575972348135">
+      <screen x="0" y="0" width="1920" height="1000" />
+    </state>
+    <state x="542" y="272" width="835" height="570" key="find.popup/0.0.1920.1000@0.0.1920.1000" timestamp="1575972348135" />
   </component>
 </project>

@@ -5,15 +5,17 @@ import Task from "./Task/Task";
 const TaskList = props => (
     <ul className={classes.TaskList}>
         {props.tasks.map((task, index) => {
-            return (
-                <React.Fragment>
-                    <Task
-                        key={index}
-                        taskName={task.taskName}
-                    />
-
-                </React.Fragment>
-            )
+            return task.sectionId === props.sectionId
+                ?
+                <Task
+                    completeTask={props.completeTask}
+                    key={index}
+                    taskId={task.taskId}
+                    taskName={task.taskName}
+                    isComplete={task.isComplete}
+                />
+                :
+                ''
         })}
 
     </ul>
